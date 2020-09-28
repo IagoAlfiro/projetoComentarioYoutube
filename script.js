@@ -7,7 +7,7 @@ var pageToken= '';
 
 var url= http+'?part='+part+'&key='+apiKey+'&videoId='+videoId+'&maxResults='+maxResults;
 
-console.log(url)
+console.log(url);
 apiAxios();
 
 var elementDiv = document.querySelector('#apiResults');
